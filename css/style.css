@@ -1,0 +1,46 @@
+html{
+	background: rgb(66, 66, 66)
+}
+.titulo{
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+	font-size: 3.2em;
+	color: #fff;
+	height: 90px;
+	width: 100%;
+	font-weight: bold;
+	margin-top:10%;
+	
+}
+div{
+	font-family: 'Indie Flower', cursive;
+	font-size: 2.2em;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+input{
+	border-radius: 20px;
+	border-bottom-color: rgb(15, 73, 35)  ;
+	font-size: 60%;
+}
+
+button{
+	font-family: 'Indie Flower', cursive;
+	padding: 0.1em 1em;
+	border: 2;
+	border-bottom: 1px solid;
+	font-size: 2.2em;
+    color: #fff;
+	background-color: rgb(36, 177, 71);
+	width: 30%;
+    display:block;
+    clear: both;
+    margin: 15px auto auto ;
+    transition: background 1s;
+	cursor: pointer;
+	border-radius: 15px;
+}
+button:hover{
+    background: rgb(70, 196, 90);
+}
